@@ -1,6 +1,7 @@
 name: example
 description: "A new Flutter package project."
 version: 0.0.1
+homepage: https://github.com/TechieBlossom/animated_shapes/example
 
 environment:
   sdk: ">=3.7.2 <4.0.0"

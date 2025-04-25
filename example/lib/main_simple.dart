@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
 }
 
 class _ShapeSwitcher extends StatefulWidget {
-  const _ShapeSwitcher({super.key});
+  const _ShapeSwitcher();
 
   @override
   State<_ShapeSwitcher> createState() => _ShapeSwitcherState();

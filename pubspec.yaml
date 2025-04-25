@@ -4,7 +4,7 @@ version: 0.0.1
 homepage: https://github.com/TechieBlossom/animated_shapes
 repository: https://github.com/TechieBlossom/animated_shapes
 issue_tracker: https://github.com/TechieBlossom/animated_shapes/issues
-publish_to: none
+publish_to: https://pub.dev
 
 environment:
   sdk: ">=3.7.2 <4.0.0"

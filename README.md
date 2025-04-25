@@ -6,7 +6,6 @@
 A Flutter package that allows you to animate **polygon shapes** using a list of points. Built with flexibility in mind —
 you control the shape, paint, size, and animation duration.
 
----
 
 ## ✨ Features
 
@@ -15,7 +14,6 @@ you control the shape, paint, size, and animation duration.
 - Fine-tune the rendering with your own `Paint`
 - Control animation `Size` and `Duration`
 
----
 
 ## 🚀 Getting Started
 
@@ -39,7 +37,6 @@ Then, import the package:
 import 'package:animated_shapes/animated_shapes.dart';
 ```
 
----
 
 ## 🧩 Basic Usage
 
@@ -58,7 +55,6 @@ AnimatedPolygon(
 )
 ```
 
----
 
 ## 🧪 Simple Shape Switch Example
 
@@ -160,7 +156,6 @@ the shapes are drawn. The UI is much more intuitive. I hope you will learn somet
 
 [animated_shapes.webm](https://github.com/user-attachments/assets/671ef9a6-fb96-494c-b804-793b2a6ea575)
 
----
 
 ## 🔭 Roadmap
 
@@ -170,13 +165,11 @@ the shapes are drawn. The UI is much more intuitive. I hope you will learn somet
 
 - 3D shape animations
 
----
 
 ## 📜 License
 
 MIT License. See the LICENSE file.
 
----
 
 ## 🙌 Maintainer
 

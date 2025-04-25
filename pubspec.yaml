@@ -1,7 +1,10 @@
 name: animated_shapes
 description: Animated geometric shapes in Flutter - Give any offset and the shape will animate to that position from current position
 version: 0.0.1
+homepage: https://github.com/TechieBlossom/animated_shapes
 repository: https://github.com/TechieBlossom/animated_shapes
+issue_tracker: https://github.com/TechieBlossom/animated_shapes/issues
+publish_to: https://pub.dev
 
 environment:
   sdk: ">=3.7.2 <4.0.0"
@@ -15,3 +18,4 @@ dev_dependencies:
   flutter_lints: ^5.0.0
 
 flutter:
+  uses-material-design: true

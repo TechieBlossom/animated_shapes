@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: const Color(0xFFF0F0F0),
       ),
-      home: const LearnScreen(),
+      home: SafeArea(child: const LearnScreen()),
     );
   }
 }

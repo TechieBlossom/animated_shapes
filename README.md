@@ -3,7 +3,8 @@
 [![pub package](https://img.shields.io/pub/v/animated_shapes.svg)](https://pub.dev/packages/animated_shapes)
 [![GitHub Repo](https://img.shields.io/badge/source-GitHub-blue)](https://github.com/TechieBlossom/animated_shapes)
 
-A Flutter package that allows you to animate **polygon shapes** using a list of points. Built with flexibility in mind — you control the shape, paint, size, and animation duration.
+A Flutter package that allows you to animate **polygon shapes** using a list of points. Built with flexibility in mind —
+you control the shape, paint, size, and animation duration.
 
 ---
 
@@ -28,14 +29,18 @@ dependencies:
 Then, run the following command to install the package:
 
 ```dart
-flutter pub get
+flutter pub
+get
 ```
 
 Then, import the package:
+
 ```dart
 import 'package:animated_shapes/animated_shapes.dart';
 ```
+
 ---
+
 ## 🧩 Basic Usage
 
 ```dart
@@ -46,16 +51,16 @@ AnimatedPolygon(
     Offset(-43, 25),
   ],
   paint: Paint()
-    ..color = Colors.blue
-    ..style = PaintingStyle.fill,
+      ..color = Colors.blue
+      ..style = PaintingStyle.fill,
   size: const Size(200, 200),
-  duration: const Duration(seconds: 2),
+  duration: const Duration(seconds:2),
 )
 ```
 
 ---
 
-## 🧪 Interactive Shape Switch Example
+## 🧪 Simple Shape Switch Example
 
 This example displays an animated polygon that morphs into Square, Rectangle, Kite, or Parallelogram on button tap:
 
@@ -148,8 +153,10 @@ class _ShapeSwitcherState extends State<ShapeSwitcher> {
 }
 ```
 
-## 
-Example Demo
+## Complex Shape Example
+
+I created this example to showcase more than just the `AnimatedPolygon`. It includes a nice coordinate system on which
+the shapes are drawn. The UI is much more intuitive. I hope you will learn something from it.
 
 [animated_shapes.webm](https://github.com/user-attachments/assets/671ef9a6-fb96-494c-b804-793b2a6ea575)
 
@@ -164,6 +171,7 @@ Example Demo
 - 3D shape animations
 
 ---
+
 ## 📜 License
 
 MIT License. See the LICENSE file.
@@ -171,6 +179,7 @@ MIT License. See the LICENSE file.
 ---
 
 ## 🙌 Maintainer
+
 Prateek Sharma
 
 [GitHub](https://github.com/TechieBlossom) • [LinkedIn](https://www.linkedin.com/in/prateeksharma1712)

@@ -148,8 +148,10 @@ class _ShapeSwitcherState extends State<ShapeSwitcher> {
 }
 ```
 
-## Example Demo
+## 
+Example Demo
 
+[animated_shapes.webm](https://github.com/user-attachments/assets/671ef9a6-fb96-494c-b804-793b2a6ea575)
 
 ---
 

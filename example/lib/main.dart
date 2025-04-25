@@ -1,5 +1,4 @@
 import 'package:example/learn_screen/learn_screen.dart';
-import 'package:example/main_simple.dart';
 import 'package:flutter/material.dart';
 
 void main() {

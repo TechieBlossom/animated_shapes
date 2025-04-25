@@ -1,0 +1,63 @@
+enum PolygonType {
+  scaleneTriangle,
+  isoscelesTriangle,
+  equilateralTriangle,
+  acuteTriangle,
+  obtuseTriangle,
+  rightTriangle,
+  square,
+  rhombus,
+  rectangle,
+  parallelogram,
+  trapezium,
+  scaleneTrapezium,
+  rightTrapezium,
+  kite,
+  regularPentagon,
+  concavePentagon,
+  convexPentagon,
+  irregularPentagon,
+  regularHexagon,
+  irregularHexagon,
+  concaveHexagon,
+  convexHexagon,
+  regularHeptagon,
+  concaveHeptagon,
+  irregularHeptagon,
+  convexHeptagon,
+  regularOctagon,
+  irregularOctagon,
+  concaveOctagon,
+  convexOctagon,
+  regularDecagon,
+  convexDecagon,
+  concaveDecagon,
+  irregularDecagon,
+}
+
+enum CurveType {
+  arc,
+  circle,
+  semicircle,
+  ellipsis,
+  parabola,
+  hyperbola,
+}
+
+enum ThreeDType {
+  cube,
+  cuboid,
+  cone,
+  cylinder,
+  triangularPyramid,
+  squarePyramid,
+  pentagonalPyramid,
+  // sphere,
+  // hemisphere,
+}
+
+enum ShapeGroup {
+  polygon,
+  curve,
+  threeD,
+}

@@ -1,0 +1,23 @@
+name: example
+description: "A new Flutter package project."
+version: 0.0.1
+homepage: none
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+  flutter: ">=3.29.2"
+
+dependencies:
+  animated_shapes:
+    path: ../
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  freezed_annotation: ^3.0.0
+
+dev_dependencies:
+  freezed: ^3.0.6
+  build_runner: ^2.4.15
+  flutter_lints: ^5.0.0
+
+flutter:

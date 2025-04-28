@@ -16,3 +16,9 @@
 - Improved animation performance.
 - Formatting and code style improvements.
 - Added screenshots and topics
+
+## 0.0.4
+
+### Changed
+- Remove video for example
+- Formatting

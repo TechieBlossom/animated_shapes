@@ -20,13 +20,13 @@ flutter:
   uses-material-design: true
 
 screenshots:
-  - description: "Animation"
-    path: screenshots/shape_animation.gif
+  - description: "Initial shapes animating to form another shape"
+    path: screenshots/shapes_animation.webm
   - description: "Scalene Triangle"
     path: screenshots/scalene_triangle.png
-  - description: "Kite"
+  - description: "Kite shape - 4 sided polygon"
     path: screenshots/kite.png
-  - description: "Octagon"
+  - description: "Octagon - 8 sided polygon"
     path: screenshots/octagon.png
 
 topics:

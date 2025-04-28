@@ -81,7 +81,9 @@ class _ShapePainter extends CustomPainter {
     canvas.drawPoints(PointMode.polygon, [
       ...nonNullableOffsets,
       nonNullableOffsets.first,
-    ], borderPaint,);
+    ],
+    borderPaint,
+    );
   }
 
   @override

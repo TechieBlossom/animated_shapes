@@ -21,7 +21,7 @@ flutter:
 
 screenshots:
   - description: "Animation"
-    path: screenshots/animation.webm
+    path: screenshots/shape_animation.gif
   - description: "Scalene Triangle"
     path: screenshots/scalene_triangle.png
   - description: "Kite"

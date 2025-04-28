@@ -4,7 +4,6 @@ version: 0.0.3
 homepage: https://github.com/TechieBlossom/animated_shapes
 repository: https://github.com/TechieBlossom/animated_shapes
 issue_tracker: https://github.com/TechieBlossom/animated_shapes/issues
-funding: https://github.com/sponsors/techieblossom
 
 environment:
   sdk: ">=3.7.2 <4.0.0"
@@ -31,8 +30,8 @@ screenshots:
     path: screenshots/octagon.png
 
 topics:
-  - chart
-  - charts
-  - visualization
-  - graph
-  - diagram
+  - animation
+  - shapes
+
+funding:
+  - https://github.com/sponsors/techieblossom

@@ -27,8 +27,7 @@ dependencies:
 Then, run the following command to install the package:
 
 ```dart
-flutter pub
-get
+flutter pub get
 ```
 
 Then, import the package:

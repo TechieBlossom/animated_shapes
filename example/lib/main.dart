@@ -14,9 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Shapes App',
-      theme: ThemeData(
-        scaffoldBackgroundColor: const Color(0xFFF0F0F0),
-      ),
+      theme: ThemeData(scaffoldBackgroundColor: const Color(0xFFF0F0F0)),
       home: SafeArea(child: const LearnScreen()),
     );
   }

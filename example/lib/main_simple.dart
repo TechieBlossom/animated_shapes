@@ -14,9 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Shapes App',
-      theme: ThemeData(
-        scaffoldBackgroundColor: const Color(0xFFF0F0F0),
-      ),
+      theme: ThemeData(scaffoldBackgroundColor: const Color(0xFFF0F0F0)),
       home: SafeArea(child: const _ShapeSwitcher()),
     );
   }
@@ -73,12 +71,12 @@ class _ShapeSwitcherState extends State<_ShapeSwitcher> {
       children: [
         AnimatedPolygon(
           points: currentPoints,
-          paint: Paint()
-            ..color = Colors.white
-            ..strokeWidth = 5
-            ..strokeCap = StrokeCap.round
-            ..style = PaintingStyle.fill,
-          size: const Size(200, 200),
+          paint:
+              Paint()
+                ..color = Colors.white
+                ..strokeWidth = 5
+                ..strokeCap = StrokeCap.round
+                ..style = PaintingStyle.fill,
           duration: const Duration(milliseconds: 600),
         ),
         const SizedBox(height: 100),

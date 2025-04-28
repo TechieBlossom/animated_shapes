@@ -1,9 +1,10 @@
 name: animated_shapes
 description: Animated geometric shapes in Flutter - Give any offset and the shape will animate to that position from current position
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/TechieBlossom/animated_shapes
 repository: https://github.com/TechieBlossom/animated_shapes
 issue_tracker: https://github.com/TechieBlossom/animated_shapes/issues
+funding: https://github.com/sponsors/techieblossom
 
 environment:
   sdk: ">=3.7.2 <4.0.0"
@@ -14,7 +15,24 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  flutter_lints: ^5.0.0
+  very_good_analysis: ^7.0.0
 
 flutter:
   uses-material-design: true
+
+screenshots:
+  - description: "Animation"
+    path: screenshots/animation.webm
+  - description: "Scalene Triangle"
+    path: screenshots/scalene_triangle.png
+  - description: "Kite"
+    path: screenshots/kite.png
+  - description: "Octagon"
+    path: screenshots/octagon.png
+
+topics:
+  - chart
+  - charts
+  - visualization
+  - graph
+  - diagram

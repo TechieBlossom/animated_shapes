@@ -2,18 +2,28 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+/// A widget that animates the drawing of a polygon.
 class AnimatedPolygon extends ImplicitlyAnimatedWidget {
   const AnimatedPolygon({
     super.key,
     required super.duration,
     required this.points,
     required this.paint,
-    required this.size,
   });
 
+  /// The list of [Offset] used to draw the polygon.
   final List<Offset> points;
+
+  /// The [Paint] applied to the shape.
+  /// Paint used in example is
+  /// ```dart
+  /// Paint()
+  ///     ..strokeCap = StrokeCap.round
+  ///     ..style = PaintingStyle.stroke
+  ///     ..maskFilter = const MaskFilter.blur(BlurStyle.solid, 4.0)
+  ///     ..strokeWidth = 5.0;
+  /// ```
   final Paint paint;
-  final Size size;
 
   @override
   ImplicitlyAnimatedWidgetState<ImplicitlyAnimatedWidget> createState() =>
@@ -29,11 +39,13 @@ class _AnimatedPolygonState extends AnimatedWidgetBaseState<AnimatedPolygon> {
 
     for (var i = 0; i < widget.points.length; i++) {
       final tween = _tweens.length >= i + 1 ? _tweens[i] : null;
-      final offset = visitor(
-        tween,
-        widget.points[i],
-        (dynamic value) => Tween<Offset>(begin: value as Offset),
-      ) as Tween<Offset>?;
+      final offset =
+          visitor(
+                tween,
+                widget.points[i],
+                (dynamic value) => Tween<Offset>(begin: value as Offset),
+              )
+              as Tween<Offset>?;
       temp.insert(i, offset);
     }
 
@@ -44,24 +56,19 @@ class _AnimatedPolygonState extends AnimatedWidgetBaseState<AnimatedPolygon> {
 
   @override
   Widget build(BuildContext context) {
-    final offsets = _tweens
-        .map((tween) => tween?.evaluate(animation) ?? Offset.zero)
-        .toList();
+    final offsets =
+        _tweens
+            .map((tween) => tween?.evaluate(animation) ?? Offset.zero)
+            .toList();
 
     return CustomPaint(
-      painter: _ShapePainter(
-        offsets: offsets,
-        borderPaint: widget.paint,
-      ),
+      painter: _ShapePainter(offsets: offsets, borderPaint: widget.paint),
     );
   }
 }
 
 class _ShapePainter extends CustomPainter {
-  _ShapePainter({
-    required this.offsets,
-    required this.borderPaint,
-  });
+  _ShapePainter({required this.offsets, required this.borderPaint});
 
   final List<Offset?> offsets;
   final Paint borderPaint;
@@ -71,14 +78,10 @@ class _ShapePainter extends CustomPainter {
     final nonNullableOffsets =
         offsets.where((element) => null != element).toList() as List<Offset>;
 
-    canvas.drawPoints(
-      PointMode.polygon,
-      [
-        ...nonNullableOffsets,
-        nonNullableOffsets.first,
-      ],
-      borderPaint,
-    );
+    canvas.drawPoints(PointMode.polygon, [
+      ...nonNullableOffsets,
+      nonNullableOffsets.first,
+    ], borderPaint,);
   }
 
   @override

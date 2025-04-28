@@ -35,14 +35,7 @@ enum PolygonType {
   irregularDecagon,
 }
 
-enum CurveType {
-  arc,
-  circle,
-  semicircle,
-  ellipsis,
-  parabola,
-  hyperbola,
-}
+enum CurveType { arc, circle, semicircle, ellipsis, parabola, hyperbola }
 
 enum ThreeDType {
   cube,
@@ -56,8 +49,4 @@ enum ThreeDType {
   // hemisphere,
 }
 
-enum ShapeGroup {
-  polygon,
-  curve,
-  threeD,
-}
+enum ShapeGroup { polygon, curve, threeD }

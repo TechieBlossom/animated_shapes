@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Highlighter extends StatelessWidget {
-  const Highlighter({
-    super.key,
-    required this.height,
-  });
+  const Highlighter({super.key, required this.height});
 
   final double height;
 

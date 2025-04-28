@@ -16,10 +16,7 @@ class LearnScreen extends StatelessWidget {
           bottom: false,
           child: Stack(
             fit: StackFit.expand,
-            children: [
-              const ShapeBox(),
-              const ShapeSelection(),
-            ],
+            children: [const ShapeBox(), const ShapeSelection()],
           ),
         ),
       ),

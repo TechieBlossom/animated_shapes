@@ -6,9 +6,8 @@ class ShapeSelectionEvent with _$ShapeSelectionEvent {
     required ShapeGroup shapeGroup,
   }) = _ShapeTypeSelected;
 
-  const factory ShapeSelectionEvent.onSidesSelected({
-    required Sides sides,
-  }) = _SidesSelected;
+  const factory ShapeSelectionEvent.onSidesSelected({required Sides sides}) =
+      _SidesSelected;
 
   const factory ShapeSelectionEvent.onShapeNameSelected({
     required ShapeModel shapeModel,

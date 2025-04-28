@@ -8,158 +8,158 @@ class PolygonDefinitions {
   final double height;
 
   List<Offset> get scaleneTriangleOffsets => [
-        Offset(width * 0.1, height * 0.9),
-        Offset(width * 0.3, height * 0.1),
-        Offset(width * 0.9, height * 0.9),
-      ];
+    Offset(width * 0.1, height * 0.9),
+    Offset(width * 0.3, height * 0.1),
+    Offset(width * 0.9, height * 0.9),
+  ];
 
   List<Offset> get isoscelesTriangleOffsets => [
-        Offset(width * 0.2, height * 0.9),
-        Offset(width * 0.5, height * 0.1),
-        Offset(width * 0.8, height * 0.9),
-      ];
+    Offset(width * 0.2, height * 0.9),
+    Offset(width * 0.5, height * 0.1),
+    Offset(width * 0.8, height * 0.9),
+  ];
 
   List<Offset> get equilateralTriangleOffsets => [
-        Offset(width * 0.1, height * 0.9),
-        Offset(width * 0.5, height * 0.2),
-        Offset(width * 0.9, height * 0.9),
-      ];
+    Offset(width * 0.1, height * 0.9),
+    Offset(width * 0.5, height * 0.2),
+    Offset(width * 0.9, height * 0.9),
+  ];
 
   List<Offset> get obtuseTriangleOffsets => [
-        Offset(width * 0.3, height * 0.9),
-        Offset(width * 0.1, height * 0.2),
-        Offset(width * 0.9, height * 0.9),
-      ];
+    Offset(width * 0.3, height * 0.9),
+    Offset(width * 0.1, height * 0.2),
+    Offset(width * 0.9, height * 0.9),
+  ];
 
   List<Offset> get rightTriangleOffsets => [
-        Offset(width * 0.1, height * 0.9),
-        Offset(width * 0.1, height * 0.1),
-        Offset(width * 0.9, height * 0.9),
-      ];
+    Offset(width * 0.1, height * 0.9),
+    Offset(width * 0.1, height * 0.1),
+    Offset(width * 0.9, height * 0.9),
+  ];
 
   List<Offset> get squareOffsets => [
-        Offset(width * 0.2, height * 0.2),
-        Offset(width * 0.8, height * 0.2),
-        Offset(width * 0.8, height * 0.8),
-        Offset(width * 0.2, height * 0.8),
-      ];
+    Offset(width * 0.2, height * 0.2),
+    Offset(width * 0.8, height * 0.2),
+    Offset(width * 0.8, height * 0.8),
+    Offset(width * 0.2, height * 0.8),
+  ];
 
   List<Offset> get rhombusOffsets => [
-        Offset(width * 0.3, height * 0.2),
-        Offset(width * 0.9, height * 0.2),
-        Offset(width * 0.7, height * 0.8),
-        Offset(width * 0.1, height * 0.8),
-      ];
+    Offset(width * 0.3, height * 0.2),
+    Offset(width * 0.9, height * 0.2),
+    Offset(width * 0.7, height * 0.8),
+    Offset(width * 0.1, height * 0.8),
+  ];
 
   List<Offset> get rectangleOffsets => [
-        Offset(width * 0.1, height * 0.3),
-        Offset(width * 0.9, height * 0.3),
-        Offset(width * 0.9, height * 0.7),
-        Offset(width * 0.1, height * 0.7)
-      ];
+    Offset(width * 0.1, height * 0.3),
+    Offset(width * 0.9, height * 0.3),
+    Offset(width * 0.9, height * 0.7),
+    Offset(width * 0.1, height * 0.7),
+  ];
 
   List<Offset> get parallelogramOffsets => [
-        Offset(width * 0.15, height * 0.3),
-        Offset(width * 0.95, height * 0.3),
-        Offset(width * 0.85, height * 0.7),
-        Offset(width * 0.05, height * 0.7)
-      ];
+    Offset(width * 0.15, height * 0.3),
+    Offset(width * 0.95, height * 0.3),
+    Offset(width * 0.85, height * 0.7),
+    Offset(width * 0.05, height * 0.7),
+  ];
 
   List<Offset> get trapeziumOffsets => [
-        Offset(width * 0.15, height * 0.4),
-        Offset(width * 0.85, height * 0.4),
-        Offset(width * 0.95, height * 0.8),
-        Offset(width * 0.05, height * 0.8)
-      ];
+    Offset(width * 0.15, height * 0.4),
+    Offset(width * 0.85, height * 0.4),
+    Offset(width * 0.95, height * 0.8),
+    Offset(width * 0.05, height * 0.8),
+  ];
 
   List<Offset> get scaleneTrapeziumOffsets => [
-        Offset(width * 0.15, height * 0.4),
-        Offset(width * 0.7, height * 0.4),
-        Offset(width * 0.95, height * 0.8),
-        Offset(width * 0.05, height * 0.8)
-      ];
+    Offset(width * 0.15, height * 0.4),
+    Offset(width * 0.7, height * 0.4),
+    Offset(width * 0.95, height * 0.8),
+    Offset(width * 0.05, height * 0.8),
+  ];
 
   List<Offset> get rightTrapeziumOffsets => [
-        Offset(width * 0.15, height * 0.4),
-        Offset(width * 0.85, height * 0.4),
-        Offset(width * 0.95, height * 0.8),
-        Offset(width * 0.15, height * 0.8)
-      ];
+    Offset(width * 0.15, height * 0.4),
+    Offset(width * 0.85, height * 0.4),
+    Offset(width * 0.95, height * 0.8),
+    Offset(width * 0.15, height * 0.8),
+  ];
 
   List<Offset> get kiteOffsets => [
-        Offset(width * 0.1, height * 0.5),
-        Offset(width * 0.4, height * 0.2),
-        Offset(width * 0.9, height * 0.5),
-        Offset(width * 0.4, height * 0.8)
-      ];
+    Offset(width * 0.1, height * 0.5),
+    Offset(width * 0.4, height * 0.2),
+    Offset(width * 0.9, height * 0.5),
+    Offset(width * 0.4, height * 0.8),
+  ];
 
   List<Offset> get regularPentagonOffsets => [
-        Offset(width * 0.2, height * 0.4),
-        Offset(width * 0.5, height * 0.2),
-        Offset(width * 0.8, height * 0.4),
-        Offset(width * 0.7, height * 0.8),
-        Offset(width * 0.3, height * 0.8),
-      ];
+    Offset(width * 0.2, height * 0.4),
+    Offset(width * 0.5, height * 0.2),
+    Offset(width * 0.8, height * 0.4),
+    Offset(width * 0.7, height * 0.8),
+    Offset(width * 0.3, height * 0.8),
+  ];
 
   List<Offset> get irregularPentagonOffsets => [
-        Offset(width * 0.3, height * 0.4),
-        Offset(width * 0.5, height * 0.3),
-        Offset(width * 0.7, height * 0.5),
-        Offset(width * 0.5, height * 0.8),
-        Offset(width * 0.2, height * 0.7),
-      ];
+    Offset(width * 0.3, height * 0.4),
+    Offset(width * 0.5, height * 0.3),
+    Offset(width * 0.7, height * 0.5),
+    Offset(width * 0.5, height * 0.8),
+    Offset(width * 0.2, height * 0.7),
+  ];
 
   List<Offset> get concavePentagonOffsets => [
-        Offset(width * 0.2, height * 0.4),
-        Offset(width * 0.5, height * 0.6),
-        Offset(width * 0.8, height * 0.4),
-        Offset(width * 0.7, height * 0.8),
-        Offset(width * 0.3, height * 0.8),
-      ];
+    Offset(width * 0.2, height * 0.4),
+    Offset(width * 0.5, height * 0.6),
+    Offset(width * 0.8, height * 0.4),
+    Offset(width * 0.7, height * 0.8),
+    Offset(width * 0.3, height * 0.8),
+  ];
 
   List<Offset> get convexPentagonOffsets => [
-        Offset(width * 0.2, height * 0.5),
-        Offset(width * 0.5, height * 0.2),
-        Offset(width * 0.8, height * 0.5),
-        Offset(width * 0.8, height * 0.8),
-        Offset(width * 0.2, height * 0.8),
-      ];
+    Offset(width * 0.2, height * 0.5),
+    Offset(width * 0.5, height * 0.2),
+    Offset(width * 0.8, height * 0.5),
+    Offset(width * 0.8, height * 0.8),
+    Offset(width * 0.2, height * 0.8),
+  ];
 
   List<Offset> get regularHexagonOffsets => [
-        Offset(width * 0.1, height * 0.5),
-        Offset(width * 0.3, height * 0.2),
-        Offset(width * 0.7, height * 0.2),
-        Offset(width * 0.9, height * 0.5),
-        Offset(width * 0.7, height * 0.8),
-        Offset(width * 0.3, height * 0.8),
-      ];
+    Offset(width * 0.1, height * 0.5),
+    Offset(width * 0.3, height * 0.2),
+    Offset(width * 0.7, height * 0.2),
+    Offset(width * 0.9, height * 0.5),
+    Offset(width * 0.7, height * 0.8),
+    Offset(width * 0.3, height * 0.8),
+  ];
 
   List<Offset> get irregularHexagonOffsets => [
-        Offset(width * 0.1, height * 0.5),
-        Offset(width * 0.3, height * 0.2),
-        Offset(width * 0.7, height * 0.2),
-        Offset(width * 0.9, height * 0.5),
-        Offset(width * 0.9, height * 0.8),
-        Offset(width * 0.1, height * 0.8),
-      ];
+    Offset(width * 0.1, height * 0.5),
+    Offset(width * 0.3, height * 0.2),
+    Offset(width * 0.7, height * 0.2),
+    Offset(width * 0.9, height * 0.5),
+    Offset(width * 0.9, height * 0.8),
+    Offset(width * 0.1, height * 0.8),
+  ];
 
   List<Offset> get concaveHexagonOffsets => [
-        Offset(width * 0.5, height * 0.5),
-        Offset(width * 0.3, height * 0.2),
-        Offset(width * 0.7, height * 0.2),
-        Offset(width * 0.9, height * 0.5),
-        Offset(width * 0.7, height * 0.8),
-        Offset(width * 0.3, height * 0.8),
-      ];
+    Offset(width * 0.5, height * 0.5),
+    Offset(width * 0.3, height * 0.2),
+    Offset(width * 0.7, height * 0.2),
+    Offset(width * 0.9, height * 0.5),
+    Offset(width * 0.7, height * 0.8),
+    Offset(width * 0.3, height * 0.8),
+  ];
 
   List<Offset> get convexHexagonOffsets => [
-        Offset(width * 0.1, height * 0.5),
-        Offset(width * 0.3, height * 0.25),
-        Offset(width * 0.7, height * 0.2),
-        Offset(width * 0.9, height * 0.5),
-        Offset(width * 0.7, height * 0.8),
-        Offset(width * 0.3, height * 0.75),
-      ];
+    Offset(width * 0.1, height * 0.5),
+    Offset(width * 0.3, height * 0.25),
+    Offset(width * 0.7, height * 0.2),
+    Offset(width * 0.9, height * 0.5),
+    Offset(width * 0.7, height * 0.8),
+    Offset(width * 0.3, height * 0.75),
+  ];
 
   List<Offset> get regularHeptagonOffsets {
     final radius = width * 0.4;
@@ -218,48 +218,48 @@ class PolygonDefinitions {
   }
 
   List<Offset> get regularOctagonOffsets => [
-        Offset(width * 0.15, height * 0.35),
-        Offset(width * 0.35, height * 0.15),
-        Offset(width * 0.65, height * 0.15),
-        Offset(width * 0.85, height * 0.35),
-        Offset(width * 0.85, height * 0.65),
-        Offset(width * 0.65, height * 0.85),
-        Offset(width * 0.35, height * 0.85),
-        Offset(width * 0.15, height * 0.65),
-      ];
+    Offset(width * 0.15, height * 0.35),
+    Offset(width * 0.35, height * 0.15),
+    Offset(width * 0.65, height * 0.15),
+    Offset(width * 0.85, height * 0.35),
+    Offset(width * 0.85, height * 0.65),
+    Offset(width * 0.65, height * 0.85),
+    Offset(width * 0.35, height * 0.85),
+    Offset(width * 0.15, height * 0.65),
+  ];
 
   List<Offset> get irregularOctagonOffsets => [
-        Offset(width * 0.3, height * 0.5),
-        Offset(width * 0.3, height * 0.2),
-        Offset(width * 0.6, height * 0.2),
-        Offset(width * 0.6, height * 0.5),
-        Offset(width * 0.9, height * 0.5),
-        Offset(width * 0.7, height * 0.8),
-        Offset(width * 0.2, height * 0.8),
-        Offset(width * 0.1, height * 0.5),
-      ];
+    Offset(width * 0.3, height * 0.5),
+    Offset(width * 0.3, height * 0.2),
+    Offset(width * 0.6, height * 0.2),
+    Offset(width * 0.6, height * 0.5),
+    Offset(width * 0.9, height * 0.5),
+    Offset(width * 0.7, height * 0.8),
+    Offset(width * 0.2, height * 0.8),
+    Offset(width * 0.1, height * 0.5),
+  ];
 
   List<Offset> get convexOctagonOffsets => [
-        Offset(width * 0.15, height * 0.35),
-        Offset(width * 0.35, height * 0.15),
-        Offset(width * 0.65, height * 0.2),
-        Offset(width * 0.85, height * 0.4),
-        Offset(width * 0.85, height * 0.6),
-        Offset(width * 0.65, height * 0.8),
-        Offset(width * 0.35, height * 0.85),
-        Offset(width * 0.1, height * 0.65),
-      ];
+    Offset(width * 0.15, height * 0.35),
+    Offset(width * 0.35, height * 0.15),
+    Offset(width * 0.65, height * 0.2),
+    Offset(width * 0.85, height * 0.4),
+    Offset(width * 0.85, height * 0.6),
+    Offset(width * 0.65, height * 0.8),
+    Offset(width * 0.35, height * 0.85),
+    Offset(width * 0.1, height * 0.65),
+  ];
 
   List<Offset> get concaveOctagonOffsets => [
-        Offset(width * 0.1, height * 0.5),
-        Offset(width * 0.4, height * 0.4),
-        Offset(width * 0.5, height * 0.1),
-        Offset(width * 0.6, height * 0.4),
-        Offset(width * 0.9, height * 0.5),
-        Offset(width * 0.6, height * 0.6),
-        Offset(width * 0.5, height * 0.9),
-        Offset(width * 0.4, height * 0.6),
-      ];
+    Offset(width * 0.1, height * 0.5),
+    Offset(width * 0.4, height * 0.4),
+    Offset(width * 0.5, height * 0.1),
+    Offset(width * 0.6, height * 0.4),
+    Offset(width * 0.9, height * 0.5),
+    Offset(width * 0.6, height * 0.6),
+    Offset(width * 0.5, height * 0.9),
+    Offset(width * 0.4, height * 0.6),
+  ];
 
   List<Offset> get regularDecagonOffsets {
     final radius = width * 0.4;
@@ -298,15 +298,15 @@ class PolygonDefinitions {
   }
 
   List<Offset> get irregularDecagonOffsets => [
-        Offset(width * 0.25, height * 0.4),
-        Offset(width * 0.2, height * 0.2),
-        Offset(width * 0.4, height * 0.35),
-        Offset(width * 0.6, height * 0.2),
-        Offset(width * 0.9, height * 0.4),
-        Offset(width * 0.85, height * 0.6),
-        Offset(width * 0.6, height * 0.75),
-        Offset(width * 0.5, height * 0.6),
-        Offset(width * 0.3, height * 0.7),
-        Offset(width * 0.1, height * 0.5),
-      ];
+    Offset(width * 0.25, height * 0.4),
+    Offset(width * 0.2, height * 0.2),
+    Offset(width * 0.4, height * 0.35),
+    Offset(width * 0.6, height * 0.2),
+    Offset(width * 0.9, height * 0.4),
+    Offset(width * 0.85, height * 0.6),
+    Offset(width * 0.6, height * 0.75),
+    Offset(width * 0.5, height * 0.6),
+    Offset(width * 0.3, height * 0.7),
+    Offset(width * 0.1, height * 0.5),
+  ];
 }

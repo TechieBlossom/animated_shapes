@@ -123,11 +123,11 @@ class _ShapeState extends State<Shape> {
           if (widget.showCoordinateSystem) const CoordinateSystem(),
           if (widget.shapeGroup == ShapeGroup.polygon)
             AnimatedPolygon(
-              size: widget.size ?? const Size.square(Sizes.canvasSize),
+              // size: widget.size ?? const Size.square(Sizes.canvasSize),
               points: _offsets,
               duration: const Duration(milliseconds: 800),
               paint: Shape._paint,
-            )
+            ),
         ],
       ),
     );
